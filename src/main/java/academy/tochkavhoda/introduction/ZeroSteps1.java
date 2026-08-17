@@ -47,10 +47,11 @@ public class ZeroSteps1 {
 
     public long calculate15Degree(int number) {
         long secondDegree = (long) number * number;
-        long fourthDegree = secondDegree * secondDegree;
-        long eighthDegree = fourthDegree * fourthDegree;
+        long thirdDegree = secondDegree * number;
+        long sixthDegree = thirdDegree * thirdDegree;
+        long twelfthDegree = sixthDegree * sixthDegree;
 
-        return eighthDegree * fourthDegree * secondDegree * number;
+        return twelfthDegree * thirdDegree;
     }
 
     public boolean isInsideRect(int xLeft, int yTop, int xRight, int yBottom, int x, int y) {
@@ -100,4 +101,3 @@ public class ZeroSteps1 {
         return (char) ((ch1 + ch2) / 2);
     }
 }
-

@@ -2,8 +2,6 @@ package academy.tochkavhoda.introduction;
 
 public class ZeroSteps1 {
 
-    // Egor Suhih, ES
-
     public int sum(int x, int y) {
         return x + y;
     }
